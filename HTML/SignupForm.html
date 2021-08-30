@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>HTML Cheat Sheet - Form</title>
+
+        <style>
+            body{
+            background-color: #f2f6ff;
+            margin: 0px;    
+            padding: 16px;
+            }
+
+            form{
+                background-color: white;
+                width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                border: 1px solid #ccc;               
+            }
+
+            .social-icon{
+                width: 50px;
+                height: 50px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-left: 32px;
+                padding-right: 32px;
+            }
+
+            #form-heading{
+                font-size: 32px;                
+                padding-top: 56px;
+                padding-bottom: 32px;
+            }
+
+            #social-wrapper{
+                background-color: #f2f6ff;
+                padding: 24px;
+            }
+            
+            .input-box{
+                font-size: 18px;
+                padding-bottom: 12px;
+                margin-bottom: 36px;
+                border: 0;
+                border-bottom: 1px solid #ccc;
+                width: 100%;    
+            }
+
+            #input-wrapper{
+                padding-top: 80px;
+                padding-bottom: 40px;
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+
+            #btn-submit{
+                background-color: #0056ff;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-right: 24px;
+                padding-left: 24px;
+                font-size: 18px;
+                color: white;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1 id="form-heading">Register</h1>
+            <div id="social-wrapper">
+                <img class="social-icon" src="/google.png" alt="Google Logo"/>
+                <img class="social-icon" src="/fb.png" alt="Facebook Logo"/>
+                <img class="social-icon" src="/git.png" alt="Github Logo"/>
+                <img class="social-icon" src="/linkedin.png" alt="LinkedIn Logo"/>
+            </div>
+
+            <div id="input-wrapper">
+                <div>
+                    <input type="text" name="username" class="input-box" placeholder="User Name"/>
+                </div>
+
+                <div>
+                    <input type="email" name="email" class="input-box" placeholder="Email"/>
+                </div>
+
+                <div> 
+                    <input type="password" name="password" class="input-box" placeholder="Password"/>
+                </div>
+
+                <div>
+                    <input type="password" name="confirmpassword" class="input-box" placeholder="Confirm password"/>
+                </div>
+
+                <input id="btn-submit" type="submit" value="Register"/>
+            </div>
+        </form>
+    </body>
+</html>

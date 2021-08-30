@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>HTML Cheat Sheet - Table</title>
+
+        <style>
+            table{
+                width: 600px;
+            } 
+            th{
+                text-align: left;
+                background-color: lightskyblue;
+            }
+            table, td,th{
+                border: black 1px solid;
+                border-collapse: collapse;
+                padding:8px;
+                line-height: 1.3;
+                margin-left: auto;
+                margin-right: auto;
+            }            
+        </style>
+    </head>
+    <body style="background-color:linen">
+        <table>
+            <tr>
+                <th colspan="3">Invoice #123456</th>
+                <th>18th Oct 2020</th>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <span><b>Pay To:</b></span><br>
+                    The Tech Park<br>
+                    123 Willow Street<br>
+                    Boulvard, L.A. - 568931
+                </td>
+                <td colspan="2" >
+                    <span><b>Customer:</b></span><br>
+                    John Park<br>
+                    563 Pillow Street<br>
+                    Boulvard, L.A. - 568931
+                </td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Qty.</th>
+                <th>MRP</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Cheese</td>
+                <td>3</td>
+                <td>500</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>Bread</td>
+                <td>2</td>
+                <td>200</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <th colspan="3"><b>Subtotal</b></th>
+                <td>1900</td>
+            </tr>
+            <tr>
+                <th colspan="2"><b>Tax</b></th>
+                <td>10%</td>
+                <td>190</td>
+            </tr>
+            <tr>
+                <th colspan="3"><b>Grand Total</b></th>
+                <td>Rs 2090</td>
+            </tr>
+        </table>
+    </body>
+</html>
